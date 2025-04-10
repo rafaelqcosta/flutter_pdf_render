@@ -12,8 +12,8 @@ dependencies:
   collection: ^1.18.0
   flutter:
     sdk: flutter
-  flutter_web_plugins:
-    sdk: flutter
+  # flutter_web_plugins:
+  #   sdk: flutter
   js: ^0.6.7
   plugin_platform_interface: ^2.1.8
   vector_math: ^2.1.4
@@ -40,9 +40,9 @@ flutter:
         pluginClass: PdfRenderPlugin
       macos:
         pluginClass: SwiftPdfRenderPlugin
-      web:
-        pluginClass: PdfRenderWebPlugin
-        fileName: src/web/pdf_render_web_plugin.dart
+      # web:
+      #   pluginClass: PdfRenderWebPlugin
+      #   fileName: src/web/pdf_render_web_plugin.dart
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
